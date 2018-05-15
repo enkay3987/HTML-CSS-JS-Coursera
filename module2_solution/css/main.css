@@ -1,0 +1,72 @@
+* {
+	box-sizing: border-box;
+}
+
+#menu {
+	text-align: center;
+}
+
+.col {
+	float: left;
+}
+
+.menu-item {
+	border: 1px solid black;
+	background-color: gray;
+	padding: 10px;
+	position: relative;
+	margin: 5px;
+}
+
+.menu-item-heading {	
+	width: 100px;
+	text-align: center;
+	padding: 10px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	border: 1px solid black;
+	font-weight: bold;
+}
+
+.menu-item-description {
+	position: relative;
+	top: 20px;
+}
+
+#chicken-item-heading {
+	background: red;
+	color: black;
+}
+
+#beef-item-heading {
+	background: green;
+	color: white;
+}
+
+#sushi-item-heading {
+	background: orange;
+	color: blue;
+}
+
+@media (min-width: 992px) {
+	.col-lg {
+		width: 33%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-1 {
+		width: 50%;
+	}
+
+	.col-md-2 {
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px) {
+	.col-sm {
+		width: 100%;
+	}
+}
