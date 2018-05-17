@@ -1,0 +1,11 @@
+#main-navbar {
+	background: lightgray;
+	border-bottom: 1px solid black;
+}
+
+.content-section {
+	background: gray;
+	padding: 5px;
+	margin: 5px;
+	text-align:justify;
+}
